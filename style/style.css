@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+body{
+    background: #f58116;
+}
+.title{
+    display: flex;
+}
+.title img{
+    width: 50px;
+}
+.title h1{
+    color: tomato;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    width: 400px;
+    padding: 10px;
+}
+.navbar p{
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.1);
+    border : 0.3px solid white;
+    border-radius: 5px;
+}
+.article{
+    width: 900px;
+    padding: 20px;
+    display: inline-block;
+    margin: 80px 210px;
+    background: #8f7ea3;
+}
+
+.item {
+    display: flex;
+    text-align: center;
+    box-shadow: 3px 4px 7px rgba(0, 0, 0, 0.1);
+}
+
+.product{
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+}
+
+.description{
+    width: 155px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    
+    
+}
+.description p {
+    margin-top: 20px;
+    color: white;
+}
+
+.price{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.price p {
+    margin-top: 60px;
+    color: white;
+
+}
+
+.quantity{
+    padding: 10px;
+    margin: 20px;
+    margin-top: 77px;
+    color: white;
+    }
+.quantity button{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.quantity input{
+    width: 30px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.like{
+    width: 20px;
+    padding: 10px;
+    margin: 60px 20px 20px 20px;
+
+}
+.like h1{
+    font-size: 3em;
+    
+}
+.class{
+    color: red;
+}
+
+
+.remove_div{
+    padding: 10px;
+    margin: 20px;
+    margin-top: 77px;
+}
+.remove {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    outline: none;
+}
+ 
+.total{
+    margin-left: 270px;
+    margin-top: 15px;
+    display: flex;
+}
+.total p{
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+margin: 0px 20px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Shopping-cart/</title>
+</head>
+
+<body>
+
+    <div class="article">
+        <!-- title Shopping-cart -->
+        <div class="header">
+            <div class="title">
+                <img src="./res/logo shop.jpg" alt="shoooooooo">
+                <h1>Shopping-cart</h1>
+            </div>
+            <div class="navbar">
+                <p>Product</p>
+                <p>Description</p>
+                <p>Price</p>
+                <p>Quantity</p>
+            </div>
+        </div>
+        <div class="chop">
+        <!-- first product -->
+        <div class="item">
+            <div class="product">
+                <img src="./res/pales.jpg" alt="pales hélicoptère " width="150px">
+            </div>
+            <div class="description">
+                <p>Pales drone hélicoptère </p>
+                <p>weight: 12g</p>
+                <p>color : black</p>
+            </div>
+            <div class="price">
+                <p style="display: inline-block;" class="price-item">21 euro</p>
+            </div>
+            <div class="quantity">
+                <button class="btn_plus"><img src="./res/plus.svg" alt=""></button>
+                <input type='text' class="item-price" value="0" placeholder="0" style="width:30px;">
+                <button class="btn_moins"><img src="./res/minus.svg" alt=""></button>
+            </div>
+            <div class="like">
+                <h1 class="heart">♥</h1>
+            </div>
+            <div class="remove_div">
+                <button class="remove">Remove</button>
+            </div>
+
+        </div>
+        <!-- second product -->
+        <div class="item">
+            <div class="product">
+                <img src="./res/moteur.jpg" alt="Moteur brushless" width="150px">
+            </div>
+            <div class="description">
+                <p>Moteur brushless </p>
+                <p>Power : 2200kv</p>
+                <p>triphasé</p>
+            </div>
+            <div class="price">
+                <p style="display: inline-block;" class="price-item">159 euro</p>
+            </div>
+            <div class="quantity">
+                <button class="btn_plus"><img src="./res/plus.svg" alt=""></button>
+                <input type='text' placeholder="0" class="item-price" value="0" style="width:30px;">
+                <button class="btn_moins"><img src="./res/minus.svg" alt=""></button>
+            </div>
+            <div class="like">
+                <h1 class="heart">♥</h1>
+            </div>
+            <div class="remove_div">
+                <button class="remove">Remove</button>
+            </div>
+
+        </div>
+        <!-- third product -->
+        <div class="item">
+            <div class="product">
+                <img src="./res/batterie.jpg" alt="batterie " width="150px">
+            </div>
+            <div class="description">
+                <p>batterie télécommande </p>
+                <p>1200 MAH</p>
+                <p>type : LIPO</p>
+            </div>
+            <div class="price">
+                <p style="display: inline-block;" class="price-item">199 euro</p>
+            </div>
+            <div class="quantity">
+                <button class="btn_plus"><img src="./res/plus.svg" alt=""></button>
+                <input type='text' placeholder="0" class="item-price" value="0" style="width:30px;">
+                <button class="btn_moins"><img src="./res/minus.svg" alt=""></button>
+            </div>
+            <div class="like">
+                <h1 class="heart">♥</h1>
+            </div>
+            <div class="remove_div">
+                <button class="remove">Remove</button>
+            </div>
+
+        </div>
+
+        <!-- fourth product -->
+        <div class="item">
+            <div class="product">
+                <img src="./res/telecommande.jpg" alt="telecommande " width="150px">
+            </div>
+            <div class="description">
+                <p>telecommande multifonction</p>
+                <p>ecran 750px*200px</p>
+                <p>color : red</p>
+            </div>
+            <div class="price">
+                <p style="display: inline-block;" class="price-item">459 euro</p>
+            </div>
+            <div class="quantity">
+                <button class="btn_plus"><img src="./res/plus.svg" alt=""></button>
+                <input type='text' placeholder="0" class="item-price" value="0" style="width:30px; ">
+                <button class="btn_moins"><img src="./res/minus.svg" alt=""></button>
+            </div>
+            <div class="like">
+                <h1 class="heart">♥</h1>
+            </div>
+            <div class="remove_div">
+                <button class="remove">Remove</button>
+            </div>
+
+        </div>
+    </div>
+        <!-- total price  -->
+        <div class="total">
+            <p>TOTAL = </p>
+            <p id="totalp">0</p>
+            <p>euro</p>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
